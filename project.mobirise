@@ -51,11 +51,17 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "pwa-switcher": false,
+    "pwa-switcher": true,
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "uniqCompNum": 29,
     "versionPublish": "4.11.6",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "PWA": {
+      "enabled": false,
+      "name": "Hanna Daniels Photography",
+      "icon": "@PROJECT_PATH@/assets/images/01-512x512.png",
+      "themeColor": "#0f7699"
+    }
   },
   "pages": {
     "index.html": {
