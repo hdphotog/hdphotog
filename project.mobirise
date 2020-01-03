@@ -67,11 +67,12 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Hanna Daniels Photography",
+        "meta_descr": "Hanna Daniels Photography",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/69507823-526242881483247-6726366750624972800-n.jpg"
       },
       "components": [
         {
@@ -2443,10 +2444,13 @@
         }
       ]
     },
-    "page1.html": {
+    "josh_yon.html": {
       "settings": {
         "title": "Josh_Yon",
-        "order": 1
+        "order": 1,
+        "meta_descr": "Interview with Josh Yon",
+        "meta_image": "@PROJECT_PATH@/assets/images/img-6843-936x1415.jpg",
+        "html_before": ""
       },
       "components": [
         {
