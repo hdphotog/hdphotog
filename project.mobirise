@@ -52,7 +52,7 @@
     "cookiesAlert": false,
     "pwa-switcher": true,
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "uniqCompNum": 36,
+    "uniqCompNum": 53,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "PWA": {
@@ -526,7 +526,7 @@
             }
           },
           "_name": "menu01",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#cccccc\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#000000\">\n        <input type=\"range\" title=\"Icons\" name=\"icons\" inline min=\"1\" max=\"5\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n\n\n        <div class=\"icon-wrap align-right\">\n            <a href=\"https://www.facebook.com/HannaDanielsPhotography/\" target=\"_blank\"><span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\" mbr-if=\"icons > 0\"></span></a>\n            <!--<a href=\"https://mobirise.co/\"><span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-vkontakte socicon\" mbr-if=\"icons > 1\"></span></a> -->\n            <a href=\"https://www.instagram.com/hanna.daniels.photography/?hl=en\" target=\"_blank\"><span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-instagram socicon\" mbr-if=\"icons > 2\"></span></a>\n            <!--<a href=\"https://mobirise.co/\"><span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-twitter socicon\" mbr-if=\"icons > 3\"></span></a> -->\n            <!-- <span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-twitter socicon\" mbr-if=\"icons > 4\"></span> -->\n        </div>\n\n        <div class=\"menu-wrap\">\n            <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"menu-logo\">\n                <div class=\"navbar-brand\">\n                    <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                        <a href=\"https://mobirise.co\">\n                            <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                        </a>\n                    </span>\n                    <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                            Hanna Daniels Photography</a></span>\n                </div>\n            </div>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                        <a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">\n                            HOME\n                        </a>\n                    </li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">GALLERIES</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'A Study in Scarlet'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'Celestial in the City'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'A Day in the Life'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'Demolition Blonde'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'Floral on the Farm'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'It's All Gucci'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'She Doesn't Bite'</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\">INTERVIEWS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://rawartists.com/hdphotography\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\">RAW ARTISTS</a></li></ul>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">Buy Now</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#cccccc\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#000000\">\n        <input type=\"range\" title=\"Icons\" name=\"icons\" inline min=\"1\" max=\"5\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n\n\n        <div class=\"icon-wrap align-right\">\n            <a href=\"https://www.facebook.com/HannaDanielsPhotography/\" target=\"_blank\"><span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\" mbr-if=\"icons > 0\"></span></a>\n            <!--<a href=\"https://mobirise.co/\"><span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-vkontakte socicon\" mbr-if=\"icons > 1\"></span></a> -->\n            <a href=\"https://www.instagram.com/hanna.daniels.photography/?hl=en\" target=\"_blank\"><span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-instagram socicon\" mbr-if=\"icons > 2\"></span></a>\n            <!--<a href=\"https://mobirise.co/\"><span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-twitter socicon\" mbr-if=\"icons > 3\"></span></a> -->\n            <!-- <span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-twitter socicon\" mbr-if=\"icons > 4\"></span> -->\n        </div>\n\n        <div class=\"menu-wrap\">\n            <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"menu-logo\">\n                <div class=\"navbar-brand\">\n                    <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                        <a href=\"https://mobirise.co\">\n                            <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                        </a>\n                    </span>\n                    <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                            Hanna Daniels Photography</a></span>\n                </div>\n            </div>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                        <a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">\n                            HOME\n                        </a>\n                    </li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">GALLERIES</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'A Study in Scarlet'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'Celestial in the City'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'A Day in the Life'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'Demolition Blonde'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'Floral on the Farm'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'It's All Gucci'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'She Doesn't Bite'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'Unconvential Beauty'</a></div></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">INTERVIEWS</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"page1.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\">Josh Yon</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\">Sara</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://rawartists.com/hdphotography\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\">RAW ARTISTS</a></li></ul>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">Buy Now</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_anchor": "menu01-0",
           "_isUserblock": true,
           "_sourceTheme": "photom4",
@@ -2231,6 +2231,331 @@
           }
         },
         {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "!isAMP",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background-color": "@overlayColor1",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradientOverlay)": {
+                "background": "linear-gradient(180deg, @overlayColor1, @overlayColor2)"
+              }
+            },
+            ".icon-focus": {
+              "display": "none"
+            },
+            ".mbr-gallery-title": {
+              "transition": "all 0.5s ease",
+              "position": "absolute",
+              "text-align": "left",
+              "display": "none",
+              "width": "100%",
+              "top": "0",
+              "right": "0",
+              "padding": "1rem",
+              "color": "#000000",
+              "font-weight": "bold",
+              "background": "transparent",
+              "-webkit-transition": "all 0.5s ease",
+              "-moz-transition": "all 0.5s ease",
+              "-o-transition": "all 0.5s ease",
+              "-ms-transition": "all 0.5s ease"
+            },
+            "ul": {
+              "font-size": "0"
+            },
+            ".mbr-gallery-filter ul li .btn": {
+              "border": "none",
+              "background-color": "transparent",
+              "color": "@tagsColor !important",
+              "padding": "0.5rem 1rem 0.6rem",
+              "border-radius": "0",
+              "margin": "0!important",
+              "transition": "padding, border 0s, transform .2s"
+            },
+            ".mbr-gallery-filter ul li .btn.active, .mbr-gallery-filter ul li.active .btn:not(.active)": {
+              "padding": "0.5rem 1rem 0.5rem",
+              "border-radius": "0 !important",
+              "position": "relative"
+            },
+            ".mbr-gallery-filter ul li .btn.active:after, .mbr-gallery-filter ul li.active .btn:not(.active):after": {
+              "content": "''",
+              "position": "absolute",
+              "bottom": "0",
+              "left": "0",
+              "width": "100%",
+              "height": "3px",
+              "background": "linear-gradient(90deg, @primaryColor, @secondaryColor)"
+            },
+            ".mbr-gallery-filter ul li": {
+              "padding": "0"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title": {
+                "padding-bottom": "1.5rem",
+                "display": "block"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacityItem !important"
+              }
+            },
+            ".btn": {
+              "background": "none",
+              "border-radius": "0 !important",
+              "&:hover": {
+                "background": "transparent !important",
+                "&:before": {
+                  "background": "transparent !important"
+                }
+              },
+              "&:before": {
+                "background-color": "transparent !important"
+              },
+              "&:focus": {
+                "box-shadow": "none"
+              }
+            },
+            ".mbr-section-title": {
+              "position": "relative",
+              "z-index": "1"
+            }
+          },
+          "_name": "extGallery3",
+          "_customHTML": "<section class=\"extGallery mbr-gallery mbr-slider-carousel\" group=\"Additional Blocks\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#149dcc\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#232323\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle\">\n            <div mbr-class=\"{'col-sm-12': !fullWidth,\n                             'col-sm-10': fullWidth}\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\">\n                    GALLERY #8- 'UNCONVENTIONAL BEAUTY'<br></h2>\n            </div>\n        </div>\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text mbr-gallery-show-bullets></div>\n    </div>\n</section>",
+          "_anchor": "extGallery3-10",
+          "_isUserblock": true,
+          "_sourceTheme": "photom4",
+          "_cid": "rNBflVBj3G",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Animated",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc04912-2.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc04912-2-800x1170.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "\"Unconventional Beauty\"",
+                "active": true
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc04936-2.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc04936-2-800x1200.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "\"Unconventional Beauty\"",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc04937-2.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc04937-2-800x1200.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "\"Unconventional Beauty\"",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc04944-2.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc04944-2-800x1200.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "\"Unconventional Beauty\"",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc04966-2.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc04966-2-800x1200.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "\"Unconventional Beauty\"",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc04973-2.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc04973-2-800x1200.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "\"Unconventional Beauty\"",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc04994-2.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc04994-2-800x1200.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "\"Unconventional Beauty\"",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc05002-2.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc05002-2-800x1200.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "\"Unconventional Beauty\"",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc05011-2.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc05011-2-800x1200.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "\"Unconventional Beauty\"",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc05030-2.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc05030-2-800x533.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "\"Unconventional Beauty\"",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc05032-2.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc05032-2-800x571.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "\"Unconventional Beauty\"",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc05061-2.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc05061-2-800x1200.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "\"Unconventional Beauty\"",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc05064-2.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc05064-2-800x1275.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "\"Unconventional Beauty\"",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc05074-2.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc05074-2-800x1200.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "\"Unconventional Beauty\"",
+                "active": false
+              }
+            ]
+          }
+        },
+        {
           "alias": "popup-builder",
           "_isSecondary": true,
           "typeCompatible": "!isAMP",
@@ -2991,72 +3316,12 @@
         }
       ]
     },
-    "josh_yon.html": {
+    "page1.html": {
       "settings": {
         "title": "Josh_Yon",
-        "order": 1,
-        "meta_descr": "Interview with Josh Yon",
-        "meta_image": "@PROJECT_PATH@/assets/images/img-6843-936x1415.jpg",
-        "html_before": ""
+        "order": 1
       },
       "components": [
-        {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value",
-              "& when (@gradientBg)": {
-                "background": "linear-gradient(45deg, @bg-value, @color2)"
-              }
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-text": {
-              "@media (max-width: 767px)": {
-                "text-align": "center"
-              }
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#767676"
-            }
-          },
-          "_name": "content07",
-          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#000000\" condition=\"gradientBg && bg.type == 'color'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row\">\n\n\n\n            <div class=\"col-md-12 col-lg-8 m-auto\">\n                <div class=\"media-content\">\n                    <h1 class=\"mbr-section-title align-left mbr-bold mbr-black pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">Josh Yon</h1>\n                    <p class=\"mbr-text align-left mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\"><i><b>\"I think something that is unconventionally beautiful is loving who you are from the day you are born.\"<br></b></i><br>Nestled on a rooftop in Downtown Raleigh, North Carolina, I begin to snap photos of Joshua Yon, a local model and outspoken mental-heath advocate. When I decided I wanted to participate in this project, I put a considerable amount of thought into whom I wanted to represent the theme “Unconventional Beauty”. Picking Joshua was a no-brainer. Not only did he have that indescribable “model” quality to him, what with his pensive gaze and attractive facial features, but he possessed a remarkable backstory and had lived a life thus far that cannot help but be described as Unconventionally Beautiful. What he has overcome in his life and how he has made something beautiful from the ashes serves as an inspirational testimony to the rest of us to keep plowing the ground and hold fast… out of the darkness comes the dawn, and what a beautiful sunrise it will be. \n<br>\n<br>\n<br>We begin our interview by discussing the usual pleasantries, me thanking him for his time and for the opportunity to capture some images and learn more about him. He graciously thanks me for my time, and in an even more gentlemanly-like way, he even helps me up onto the rooftop that he had already adeptly leapt up onto. \n<br>\n<br>After we scaled the parking garage rooftop and I set up my gear, I pull out my voice memo app and ask his permission to record our interview. “Of course! I’m an open book.” Joshua agrees with a grin. “Alright! Let’s do this!” I say, as I adjust my settings on my Nikon camera. I decide to photograph him while asking my interview questions simultaneously, in an effort to capture his real and authentic nature. It becomes clear within a matter of minutes that selecting him for this project was the right move. Read the interview below to see for yourself…\n<br>\n<br><b>Q: “What does Unconventional Beauty look like to you, and how would you describe it?”\n<br></b>\n<br><b>A:</b> “Ever since I was a young kid, I remember being overwhelmed with the notion that society says we can only love ourselves and our bodies once you work out, or once you dress a certain way, or once you have this brand or once you have a certain style… but I think something that is unconventionally beautiful is loving who you are from the day you are born. And don’t get me wrong, it takes work… but making the conscious decision to love yourself as you are, in your current state of being… not only is that courageous, but that in itself is the most radically beautiful thing a person can do.”\n<br>\n<br><b>Q: How are some ways you’ve recognized the beauty in an otherwise “ugly” circumstance?\n<br></b>\n<br><b>A:</b> Personally, the circumstances in which I’m looked at like “that one black guy” or I’m looked at as the outcast or the minority, I’ve learned to look at it a little differently… instead of looking at it from the mindset of being removed from everyone else and living in isolation, I’ve adopted this mentality like: “I’m special”. It makes me unique and different. I’ve never been that person who like being normal or wanted to fit in or be the same as anyone else anyways, so I distinctly remember thinking to myself “why do I care about being different if I don’t want to be like everyone else, anyways?”  \n<br>\n<br><b>Q: What are some ways you intentionally set yourself apart from the mainstream?\n<br></b>\n<br><b>A</b>: Honestly, in every way possible! Down to the way I look, my style, the way I dress, the way I act and the way I talk, and how bold I am and free I am with myself; that all stems from the fact that I’ve always been the person who is different. So I’ve always seen my differences as something that sets me apart. They’ve helped me love the person that I am because no on else can be more like me than me” \n<br>\n<br>\n<br>It’s at this point in the interview that his vulnerability becomes apparent – but it’s in a different way than I’ve ever seen vulnerability displayed in a person. Instead of speaking about his scars in a way that seems wounded, Josh wears his past with a badge of honor and resilience that gives of a stronger, more self-confident air than I’ve seen from a human before. He’s been through hell and back, and is all the better for it. \n<br>\n<br>\n<br><b><i>- TRIGGER WARNING: Self-Harm, Suicide -\n<br></i></b>\n<br>\n<br><b>Q: “I know you’ve mentioned that your journey with mental health has drastically shaped who you’ve become today… do you feel comfortable elaborating on that? \n<br></b>\n<br><b>A</b>: “Oh, absolutely. I’m always open to sharing my testimony because if someone needs to hear from someone else that’s been through it and come out on the other side… if I can give someone hope, then why would I remain silent?” \n<br>\n<br><b>Q: “I agree. That’s such a courageous mindset… I commend that attitude and honor you for the battles you’ve fought and won. What are some ways you’ve overcome this challenge and redeemed that dark place in your life and made it beautiful?” \n<br></b>\n<br><b>A</b>: “A certain degree of it was through practical ways like practicing mindfulness and loving everyone as I craved to be loved and appreciated, working out and pushing myself to the limit physically… then breaking those limits and pushing past them. It really helped improve my outlook on myself physically and mentally, and helped change my perspective from pain to praise and from darkness to light.”\n<br>\n<br>“There was also this one distinct moment I remember… when I was in a really low place a few years back – I had attempted suicide twice in 6 months and was just so hopeless. There wasn’t anything in my life that I thought was worth living for.”\n<br>\n<br>“One day a student involved in my church had come to me and said that they were going through the same struggle, but looked up to me in such a way that they didn’t want to go through with their plans to take their own life, because they didn’t want to make me sad. And man… what do you even say to that? It hit me like a train. The realization that I was the sole reason that this kid hadn’t gone through with his plans to take his own life… that’s something worth living for. If me being alive serves as a reason, however small, then… I’ll live for that.”\n<br>\n<br>“Since then I’ve had my life completely wrecked in the best way possible. Everything has been shaken up and has fallen into place. It’s still a struggle, when the negativity sets in and the anxiety cripples your thinking capacities… but I’m beginning to see the beauty in the everyday. The fact that I’m standing here alive shows how strong I am. And that’s a narrative about mental health that desperately needs to change. People mean well, but I wish they’d stop telling me that my traumas and depression made me who I am now. No, my resilience did that. I don’t credit what tried to break me… All the credit belongs to my ability to remove the pieces that never should have been there, and find ways to rebuild.  My mission going forward is simple: To encourage the world to not be a flashlight pointing out everyone’s flaws, but to be a beacon of hope. \n<br>\n<br>\n<br>\n<br>His voice strong and determined, his words were eloquent and poignant yet elicited a sense of awe at his resilience. Immediately after he finished speaking I was so positively effected by his words that I found my eyes welling up with tears on their own volition and against my will. \n<br>\n<br>\n<br>So what is Unconventional Beauty? To Joshua Yon, it’s being authentically you in every way possible. It’s by praising through your pain that allows you to be able to weather the storms in this life, making you more in love with the skin you’re in. It’s honoring your journey regardless of what valleys and peaks it takes you to. It’s giving yourself grace when you need it; it means loving yourself even when you don’t feel like you deserve it. It’s waking up every day and making the cognizant choice to embrace the multi-faceted nature of your psyche, because at it’s very core is the essence of what makes you, you. He is Unconventionally Beautiful, and anyone who hears his story and is affected by it wants to be beautiful like him too. \n<br>\n<br>\n<br>\n<br></p>\n\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">View More</a></div>\n                </div>\n            </div>\n\n\n        </div>\n    </div>\n\n</section>",
-          "_cid": "rM9LhxgFGo",
-          "_anchor": "content07-4",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            }
-          },
-          "_name": "footer01",
-          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#c1c1c1\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2020<a href=\"index.html\"> Hanna Daniels Photography</a>- All Rights Reserved. All Images Copyrighted. &nbsp; &nbsp; &nbsp;<a href=\"mailto:ebtroedsson@gmail.com\"> Webmaster</a></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_isUserblock": true,
-          "_sourceTheme": "photom4",
-          "_cid": "rymwxiDonX",
-          "_anchor": "footer01-3",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "footers",
-          "_params": {}
-        },
         {
           "alias": false,
           "_styles": {
@@ -3507,14 +3772,75 @@
             }
           },
           "_name": "menu01",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#cccccc\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#000000\">\n        <input type=\"range\" title=\"Icons\" name=\"icons\" inline min=\"1\" max=\"5\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n\n\n        <div class=\"icon-wrap align-right\">\n            <a href=\"https://www.facebook.com/HannaDanielsPhotography/\" target=\"_blank\"><span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\" mbr-if=\"icons > 0\"></span></a>\n            <!--<a href=\"https://mobirise.co/\"><span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-vkontakte socicon\" mbr-if=\"icons > 1\"></span></a> -->\n            <a href=\"https://www.instagram.com/hanna.daniels.photography/?hl=en\" target=\"_blank\"><span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-instagram socicon\" mbr-if=\"icons > 2\"></span></a>\n            <!--<a href=\"https://mobirise.co/\"><span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-twitter socicon\" mbr-if=\"icons > 3\"></span></a> -->\n            <!-- <span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-twitter socicon\" mbr-if=\"icons > 4\"></span> -->\n        </div>\n\n        <div class=\"menu-wrap\">\n            <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"menu-logo\">\n                <div class=\"navbar-brand\">\n                    <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                        <a href=\"https://mobirise.co\">\n                            <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                        </a>\n                    </span>\n                    <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                            Hanna Daniels Photography</a></span>\n                </div>\n            </div>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                        <a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">\n                            HOME\n                        </a>\n                    </li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">GALLERIES</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'A Study in Scarlet'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'Celestial in the City'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'A Day in the Life'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'Demolition Blonde'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'Floral on the Farm'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'It's All Gucci'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'She Doesn't Bite'</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\">INTERVIEWS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://rawartists.com/hdphotography\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\">RAW ARTISTS</a></li></ul>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">Buy Now</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
-          "_anchor": "menu01-6",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#cccccc\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#000000\">\n        <input type=\"range\" title=\"Icons\" name=\"icons\" inline min=\"1\" max=\"5\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n\n\n        <div class=\"icon-wrap align-right\">\n            <a href=\"https://www.facebook.com/HannaDanielsPhotography/\" target=\"_blank\"><span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\" mbr-if=\"icons > 0\"></span></a>\n            <!--<a href=\"https://mobirise.co/\"><span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-vkontakte socicon\" mbr-if=\"icons > 1\"></span></a> -->\n            <a href=\"https://www.instagram.com/hanna.daniels.photography/?hl=en\" target=\"_blank\"><span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-instagram socicon\" mbr-if=\"icons > 2\"></span></a>\n            <!--<a href=\"https://mobirise.co/\"><span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-twitter socicon\" mbr-if=\"icons > 3\"></span></a> -->\n            <!-- <span mbr-icon class=\"top-icon mbr-iconfont mbr-iconfont-btn socicon-twitter socicon\" mbr-if=\"icons > 4\"></span> -->\n        </div>\n\n        <div class=\"menu-wrap\">\n            <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"menu-logo\">\n                <div class=\"navbar-brand\">\n                    <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                        <a href=\"https://mobirise.co\">\n                            <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                        </a>\n                    </span>\n                    <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                            Hanna Daniels Photography</a></span>\n                </div>\n            </div>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                        <a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">\n                            HOME\n                        </a>\n                    </li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">GALLERIES</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'A Study in Scarlet'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'Celestial in the City'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'A Day in the Life'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'Demolition Blonde'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'Floral on the Farm'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'It's All Gucci'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'She Doesn't Bite'</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">'Unconvential Beauty'</a></div></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">INTERVIEWS</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"page1.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\">Josh Yon</a><a class=\"text-white dropdown-item\" href=\"josh_yon.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\">Sara</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://rawartists.com/hdphotography\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\">RAW ARTISTS</a></li></ul>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">Buy Now</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "photom4",
-          "_cid": "rM9N9t2Fyx",
+          "_cid": "rymwt0lgln",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
+          "_params": {},
+          "_anchor": "menu01-1e"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer01",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#c1c1c1\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2020<a href=\"index.html\"> Hanna Daniels Photography</a>- All Rights Reserved. All Images Copyrighted. &nbsp; &nbsp; &nbsp;<a href=\"mailto:ebtroedsson@gmail.com\"> Webmaster</a></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "photom4",
+          "_cid": "rymwxiDonX",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer01-1f"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(45deg, @bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "@media (max-width: 767px)": {
+                "text-align": "center"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content07",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#000000\" condition=\"gradientBg &amp;&amp; bg.type == 'color'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row\">\n\n\n\n            <div class=\"col-md-12 col-lg-8 m-auto\">\n                <div class=\"media-content\">\n                    <h1 class=\"mbr-section-title align-left mbr-bold mbr-black pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">Josh Yon</h1>\n                    <p class=\"mbr-text align-left mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\"><i><b>\"I think something that is unconventionally beautiful is loving who you are from the day you are born.\"<br></b></i><br>Nestled on a rooftop in Downtown Raleigh, North Carolina, I begin to snap photos of Joshua Yon, a local model and outspoken mental-heath advocate. When I decided I wanted to participate in this project, I put a considerable amount of thought into whom I wanted to represent the theme “Unconventional Beauty”. Picking Joshua was a no-brainer. Not only did he have that indescribable “model” quality to him, what with his pensive gaze and attractive facial features, but he possessed a remarkable backstory and had lived a life thus far that cannot help but be described as Unconventionally Beautiful. What he has overcome in his life and how he has made something beautiful from the ashes serves as an inspirational testimony to the rest of us to keep plowing the ground and hold fast… out of the darkness comes the dawn, and what a beautiful sunrise it will be. \n<br>\n<br>\n<br>We begin our interview by discussing the usual pleasantries, me thanking him for his time and for the opportunity to capture some images and learn more about him. He graciously thanks me for my time, and in an even more gentlemanly-like way, he even helps me up onto the rooftop that he had already adeptly leapt up onto. \n<br>\n<br>After we scaled the parking garage rooftop and I set up my gear, I pull out my voice memo app and ask his permission to record our interview. “Of course! I’m an open book.” Joshua agrees with a grin. “Alright! Let’s do this!” I say, as I adjust my settings on my Nikon camera. I decide to photograph him while asking my interview questions simultaneously, in an effort to capture his real and authentic nature. It becomes clear within a matter of minutes that selecting him for this project was the right move. Read the interview below to see for yourself…\n<br>\n<br><b>Q: “What does Unconventional Beauty look like to you, and how would you describe it?”\n<br></b>\n<br><b>A:</b> “Ever since I was a young kid, I remember being overwhelmed with the notion that society says we can only love ourselves and our bodies once you work out, or once you dress a certain way, or once you have this brand or once you have a certain style… but I think something that is unconventionally beautiful is loving who you are from the day you are born. And don’t get me wrong, it takes work… but making the conscious decision to love yourself as you are, in your current state of being… not only is that courageous, but that in itself is the most radically beautiful thing a person can do.”\n<br>\n<br><b>Q: How are some ways you’ve recognized the beauty in an otherwise “ugly” circumstance?\n<br></b>\n<br><b>A:</b> Personally, the circumstances in which I’m looked at like “that one black guy” or I’m looked at as the outcast or the minority, I’ve learned to look at it a little differently… instead of looking at it from the mindset of being removed from everyone else and living in isolation, I’ve adopted this mentality like: “I’m special”. It makes me unique and different. I’ve never been that person who like being normal or wanted to fit in or be the same as anyone else anyways, so I distinctly remember thinking to myself “why do I care about being different if I don’t want to be like everyone else, anyways?”  \n<br>\n<br><b>Q: What are some ways you intentionally set yourself apart from the mainstream?\n<br></b>\n<br><b>A</b>: Honestly, in every way possible! Down to the way I look, my style, the way I dress, the way I act and the way I talk, and how bold I am and free I am with myself; that all stems from the fact that I’ve always been the person who is different. So I’ve always seen my differences as something that sets me apart. They’ve helped me love the person that I am because no on else can be more like me than me” \n<br>\n<br>\n<br>It’s at this point in the interview that his vulnerability becomes apparent – but it’s in a different way than I’ve ever seen vulnerability displayed in a person. Instead of speaking about his scars in a way that seems wounded, Josh wears his past with a badge of honor and resilience that gives of a stronger, more self-confident air than I’ve seen from a human before. He’s been through hell and back, and is all the better for it. \n<br>\n<br>\n<br><b><i>- TRIGGER WARNING: Self-Harm, Suicide -\n<br></i></b>\n<br>\n<br><b>Q: “I know you’ve mentioned that your journey with mental health has drastically shaped who you’ve become today… do you feel comfortable elaborating on that? \n<br></b>\n<br><b>A</b>: “Oh, absolutely. I’m always open to sharing my testimony because if someone needs to hear from someone else that’s been through it and come out on the other side… if I can give someone hope, then why would I remain silent?” \n<br>\n<br><b>Q: “I agree. That’s such a courageous mindset… I commend that attitude and honor you for the battles you’ve fought and won. What are some ways you’ve overcome this challenge and redeemed that dark place in your life and made it beautiful?” \n<br></b>\n<br><b>A</b>: “A certain degree of it was through practical ways like practicing mindfulness and loving everyone as I craved to be loved and appreciated, working out and pushing myself to the limit physically… then breaking those limits and pushing past them. It really helped improve my outlook on myself physically and mentally, and helped change my perspective from pain to praise and from darkness to light.”\n<br>\n<br>“There was also this one distinct moment I remember… when I was in a really low place a few years back – I had attempted suicide twice in 6 months and was just so hopeless. There wasn’t anything in my life that I thought was worth living for.”\n<br>\n<br>“One day a student involved in my church had come to me and said that they were going through the same struggle, but looked up to me in such a way that they didn’t want to go through with their plans to take their own life, because they didn’t want to make me sad. And man… what do you even say to that? It hit me like a train. The realization that I was the sole reason that this kid hadn’t gone through with his plans to take his own life… that’s something worth living for. If me being alive serves as a reason, however small, then… I’ll live for that.”\n<br>\n<br>“Since then I’ve had my life completely wrecked in the best way possible. Everything has been shaken up and has fallen into place. It’s still a struggle, when the negativity sets in and the anxiety cripples your thinking capacities… but I’m beginning to see the beauty in the everyday. The fact that I’m standing here alive shows how strong I am. And that’s a narrative about mental health that desperately needs to change. People mean well, but I wish they’d stop telling me that my traumas and depression made me who I am now. No, my resilience did that. I don’t credit what tried to break me… All the credit belongs to my ability to remove the pieces that never should have been there, and find ways to rebuild.  My mission going forward is simple: To encourage the world to not be a flashlight pointing out everyone’s flaws, but to be a beacon of hope. \n<br>\n<br>\n<br>\n<br>His voice strong and determined, his words were eloquent and poignant yet elicited a sense of awe at his resilience. Immediately after he finished speaking I was so positively effected by his words that I found my eyes welling up with tears on their own volition and against my will. \n<br>\n<br>\n<br>So what is Unconventional Beauty? To Joshua Yon, it’s being authentically you in every way possible. It’s by praising through your pain that allows you to be able to weather the storms in this life, making you more in love with the skin you’re in. It’s honoring your journey regardless of what valleys and peaks it takes you to. It’s giving yourself grace when you need it; it means loving yourself even when you don’t feel like you deserve it. It’s waking up every day and making the cognizant choice to embrace the multi-faceted nature of your psyche, because at it’s very core is the essence of what makes you, you. He is Unconventionally Beautiful, and anyone who hears his story and is affected by it wants to be beautiful like him too. \n<br>\n<br>\n<br>\n<br></p>\n\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">View More</a></div>\n                </div>\n            </div>\n\n\n        </div>\n    </div>\n\n</section>",
+          "_anchor": "content07-1g",
+          "_isUserblock": true,
+          "_sourceTheme": "photom4",
+          "_cid": "rNBskWPVOf",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
           "_params": {}
         }
       ]
