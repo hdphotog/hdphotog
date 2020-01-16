@@ -44,7 +44,7 @@
     "lazyLoad": true,
     "lazyType": "placeholder",
     "favicon": "@PROJECT_PATH@/assets/images/img-20191110-135221-1814x2419-128x171.png",
-    "noImageResize": true,
+    "noImageResize": null,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": "on",
@@ -53,7 +53,7 @@
     "pwa-switcher": true,
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "uniqCompNum": 59,
-    "versionPublish": "4.11.6",
+    "versionPublish": "4.12.0",
     "screenshot": "screenshot.png",
     "PWA": {
       "enabled": false,
@@ -62,7 +62,8 @@
       "themeColor": "#0f7699"
     },
     "gdpr": false,
-    "witsec-mailform": false
+    "witsec-mailform": false,
+    "imageResize": false
   },
   "pages": {
     "index.html": {
