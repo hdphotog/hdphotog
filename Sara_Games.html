@@ -16,7 +16,11 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.css">
+  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.theme.css">
+  <link rel="stylesheet" href="assets/datepicker/jquery.datetimepicker.min.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/recaptcha.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
@@ -61,7 +65,7 @@
                         <a class="nav-link link text-white display-5" href="index.html" aria-expanded="false">
                             HOME
                         </a>
-                    </li><li class="nav-item dropdown"><a class="nav-link link text-white dropdown-toggle display-5" href="index.html" aria-expanded="false" data-toggle="dropdown-submenu">GALLERIES</a><div class="dropdown-menu"><a class="text-white dropdown-item display-5" href="index.html#extGallery3-n" aria-expanded="false">'A Study in Scarlet'</a><a class="text-white dropdown-item display-5" href="index.html#extGallery3-t" aria-expanded="false">'Celestial in the City'</a><a class="text-white dropdown-item display-5" href="index.html#extGallery3-u" aria-expanded="false">'A Day in the Life'</a><a class="text-white dropdown-item display-5" href="index.html#extGallery3-v" aria-expanded="false">'Demolition Blonde'</a><a class="text-white dropdown-item display-5" href="index.html#extGallery3-w" aria-expanded="false">'Floral on the Farm'</a><a class="text-white dropdown-item display-5" href="index.html#extGallery3-x" aria-expanded="false">'It's All Gucci'</a><a class="text-white dropdown-item display-5" href="index.html#extGallery3-y" aria-expanded="false">'She Doesn't Bite'</a><a class="text-white dropdown-item display-5" href="index.html#extGallery3-10" aria-expanded="false">'Unconvential Beauty'</a></div></li><li class="nav-item dropdown open"><a class="nav-link link text-white dropdown-toggle display-5" href="index.html" aria-expanded="true" data-toggle="dropdown-submenu">INTERVIEWS</a><div class="dropdown-menu"><a class="text-white dropdown-item display-5" href="josh_yon.html" aria-expanded="true">Josh Yon</a><a class="text-white dropdown-item display-5" href="Sara_Games.html" aria-expanded="true">Sara Games</a></div></li><li class="nav-item"><a class="nav-link link text-white display-5" href="https://rawartists.com/hdphotography" aria-expanded="false" target="_blank">RAW ARTISTS</a></li></ul>
+                    </li><li class="nav-item dropdown"><a class="nav-link link text-white dropdown-toggle display-5" href="index.html" aria-expanded="false" data-toggle="dropdown-submenu">GALLERIES</a><div class="dropdown-menu"><a class="text-white dropdown-item display-5" href="index.html#extGallery3-n" aria-expanded="false">'A Study in Scarlet'</a><a class="text-white dropdown-item display-5" href="index.html#extGallery3-t" aria-expanded="false">'Celestial in the City'</a><a class="text-white dropdown-item display-5" href="index.html#extGallery3-u" aria-expanded="false">'A Day in the Life'</a><a class="text-white dropdown-item display-5" href="index.html#extGallery3-v" aria-expanded="false">'Demolition Blonde'</a><a class="text-white dropdown-item display-5" href="index.html#extGallery3-w" aria-expanded="false">'Floral on the Farm'</a><a class="text-white dropdown-item display-5" href="index.html#extGallery3-x" aria-expanded="false">'It's All Gucci'</a><a class="text-white dropdown-item display-5" href="index.html#extGallery3-y" aria-expanded="false">'She Doesn't Bite'</a><a class="text-white dropdown-item display-5" href="index.html#extGallery3-10" aria-expanded="false">'Unconvential Beauty'</a></div></li><li class="nav-item dropdown"><a class="nav-link link text-white dropdown-toggle display-5" href="index.html" aria-expanded="false" data-toggle="dropdown-submenu">INTERVIEWS</a><div class="dropdown-menu"><a class="text-white dropdown-item display-5" href="josh_yon.html" aria-expanded="true">Josh Yon</a><a class="text-white dropdown-item display-5" href="Sara_Games.html" aria-expanded="true">Sara Games</a></div></li><li class="nav-item"><a class="nav-link link text-white display-5" href="https://rawartists.com/hdphotography" aria-expanded="false" target="_blank">RAW ARTISTS</a></li><li class="nav-item"><a class="nav-link link text-white display-5" href="popup:#mbr-popup-s" aria-expanded="false" data-toggle="modal" data-target="#mbr-popup-s">CONTACT</a></li></ul>
                 
             </div>
         </div>
@@ -135,18 +139,72 @@
 
 </section>
 
+<div class="modal mbr-popup cid-rO8qZPRHXo fade" tabindex="-1" role="dialog" data-overlay-opacity="0.8" data-overlay-color="#ffffff" id="mbr-popup-s" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header pb-0">
+                    <h5 class="modal-title mbr-fonts-style display-5">Email Me</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" fill="currentColor">
+                            <path d="M31.797 0.191c-0.264-0.256-0.686-0.25-0.942 0.015l-13.328 13.326c-0.598 0.581 0.342 1.543 0.942 0.942l13.328-13.326c0.27-0.262 0.27-0.695 0-0.957zM14.472 17.515c-0.264-0.256-0.686-0.25-0.942 0.015l-13.328 13.326c-0.613 0.595 0.34 1.562 0.942 0.942l13.328-13.326c0.27-0.262 0.27-0.695 0-0.957zM1.144 0.205c-0.584-0.587-1.544 0.336-0.942 0.942l30.654 30.651c0.613 0.625 1.563-0.325 0.942-0.942z"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="mbr-text mbr-fonts-style display-7"></p>
+
+                    <div>
+                        
+                            
+
+                            <div class="form-wrapper" data-form-type="formoid">
+<!--Formbuilder Form-->
+<form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Email Me"><input type="hidden" name="email" data-form-email="true" value="0QNXZ3EPqE7kzbyC2Elkh3XPMfkHyFThXj80N9GxaHLSBH6tsNPBidibCgTjVBDIYbDYbu6c+rk8/AVDAThfpX72x9NfNrQoVf+lttQMxPe2QoBHD1aoNJZ8EN0XH61P.qrad2NlMec2LDhJVHyr2WDt1FFpx9MEFOuzIqLml6o0T+xwhd3LG05uPmg4l/8+wbBIqzNmTMFeWK2nwMwhwKbfmv+bMhtW2vC5ve9G9nFSVca7Rf12i/bW4AnRh72Qd">
+<div class="">
+<div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+<div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+</div>
+</div>
+<div class="dragArea">
+<div class="col form-group " data-for="email">
+<input type="email" name="email" placeholder="Email" data-form-field="Email" required="required" class="form-control display-7" value="" id="email-mbr-popup-1n">
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="textarea">
+<textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control display-7" id="textarea-mbr-popup-1n"></textarea>
+</div>
+<div class="col-md-auto input-group-btn">
+<button type="submit" class="btn btn-primary display-4">SEND</button>
+</div>
+</div>
+</form><!--Formbuilder Form-->
+</div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/popup-overlay-plugin/script.js"></script>
+  <script src="assets/popup-plugin/script.js"></script>
   <script src="assets/dropdown/js/nav-dropdown.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/formstyler/jquery.formstyler.js"></script>
+  <script src="assets/formstyler/jquery.formstyler.min.js"></script>
+  <script src="assets/datepicker/jquery.datetimepicker.full.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LcPFdEUAAAAACJbuOnbZzFKJAr8SlxCs4WR6xPu"></script>
   <script src="assets/witsec-mailform/witsec-mailform.js"></script>
   <script src="assets/theme/js/script.js"></script>
-  <script src="assets/formoid/formoid.min.js"></script>
+  <script src="assets/formoid.min.js"></script>
   <script src="assets/web/assets/lazyload/lazyload.js"></script>
   
 
