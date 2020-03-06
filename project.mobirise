@@ -49,21 +49,21 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": "on",
     "siteUrl": false,
-    "cookiesAlert": false,
     "pwa-switcher": true,
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "uniqCompNum": 61,
     "versionPublish": "4.12.2",
     "screenshot": "screenshot.png",
     "PWA": {
-      "enabled": false,
+      "enabled": true,
       "name": "Hanna Daniels Photography",
-      "icon": "@PROJECT_PATH@/assets/images/01-512x512.png",
+      "icon": "@PROJECT_PATH@/assets/images/010-512x512.png",
       "themeColor": "#0f7699"
     },
-    "gdpr": false,
     "witsec-mailform": false,
-    "imageResize": false
+    "imageResize": true,
+    "cookiesAlert": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
